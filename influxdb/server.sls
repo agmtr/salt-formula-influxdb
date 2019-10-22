@@ -6,7 +6,6 @@
 influxdb_packages:
   pkg.installed:
   - names: {{ server.pkgs }}
-  - force_yes: True
 {%- endif %}
 
 {{ server.prefix_dir }}/etc/influxdb:
